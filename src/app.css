@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.funding-item-description {
+    margin-top: 10px;
+}
+
+.funding-item-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.funding-item-detail{
+    display: flex;
+    flex-direction: row;
+}
+
+.funding-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: auto;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 66.666%;
+    flex-basis: 100%;
+}
+
+.funding-item-postview {
+    border: 1px solid #ff3800;
+}
+
+.amount {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.details {
+    color: #888;
+    font-size: 0.8rem;
+}
+
+.vertical-line {
+    border-left: 2px solid #ddd;
+    height: 15vh;
+    margin: 0 auto;
+}
+
+.centered-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.withdrawal {
+    border: 1px solid #20af90;
+}
