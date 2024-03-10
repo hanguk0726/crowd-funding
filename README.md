@@ -1,38 +1,34 @@
-# create-svelte
+# Smart contract crowd funding
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+npm install && npm run dev
 
-## Creating a project
+## 
 
-If you're seeing this, you've probably already done this step. Congrats!
+This is my first attempt to interact with a smart contract.<br>
+I implemented features such as connecting MetaMask, creating profiles and funding campaigns, as well as funding cancellation and claiming.<br>
+The main task was to synchronize content CRUD and smart contract transactions on the frontend.<br>
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+## 
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+#SvelteKit<br>
+#Solidity<br>
+#Supabase<br>
+#EthersJs<br>
+#MetaMask<br>
+#Sepolia<br>
 
-## Developing
+## solidity code
+https://gist.github.com/hanguk0726/0be5270a713603b4e52965d13f1fea1a
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+##
 
-```bash
-npm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+![1](https://github.com/hanguk0726/crowd-funding/assets/59407982/a06795ca-9738-4fa4-8140-c120f089b95a)
+<br>
+![2](https://github.com/hanguk0726/crowd-funding/assets/59407982/c4bfc8c7-7e5d-44b4-95df-719f11985a4a)
+<br>
+![3](https://github.com/hanguk0726/crowd-funding/assets/59407982/d121c335-64a7-4e24-8c6d-6a81af55f573)
+<br>
+![4](https://github.com/hanguk0726/crowd-funding/assets/59407982/1a051710-cdd2-4b55-ae9c-6bfc26127c7d)
+<br>
+![5](https://github.com/hanguk0726/crowd-funding/assets/59407982/799bc068-c4b8-4385-a619-b9486161f446)
